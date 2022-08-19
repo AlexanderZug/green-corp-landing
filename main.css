@@ -9,6 +9,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
   }
 
   a {
@@ -57,6 +61,7 @@
     width: 100px;
     height: 100px;
     animation: rotation 10s linear infinite;
+    position: absolute
   }
 
   .about h1 {
@@ -192,3 +197,168 @@ footer h3 {
   100% {transform: rotate(360deg);
   }
 }
+
+@media (min-width:320px) and (max-width:719px){
+  .header__logo {
+    height: 20px;
+  }
+
+  .about{
+    flex-direction: column-reverse;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    padding-left: 10px;       
+  }
+
+  footer{
+    padding: 10px;
+  }
+
+  .about h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+  
+  .form{
+    padding: 10px;
+  }
+
+  .form h1{
+    font-size: 36px;
+  }
+
+  .about__image {
+    width: 280px;
+  }   
+
+  .about__sun-image {
+    width: 75px;
+    height: 75px;
+  }
+
+  .footer__container{
+    flex-direction: column;
+  }
+
+  .footer__group{
+    margin-right: 0px;
+  }
+
+footer {
+  margin: 45px 10px 45px 10px;
+}  
+
+header{
+  padding: 10px;
+}
+
+.form__submit{
+  margin-bottom: 40px;
+}
+
+.features {
+  padding: 50px 10px;
+}
+
+.cards {
+  grid-template-columns: auto;
+}
+
+.features__feedback {
+  flex-direction: column;
+}
+
+.features__feedback-left {
+  padding-right: 0px;
+}
+
+.features__feedback-left h2 {
+  font-size: 36px;
+}
+
+.features__feedback-right {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.features__box h3 {
+  font-size: 36px;
+    }
+
+.features__savings-box {
+  margin-right: 0px;
+  margin-bottom: 30px;
+      }
+
+.promo__image {
+  width: 100%;
+  height: 500px;
+    }
+
+.promo__right {
+  padding: 50px 10px 50px 10px;
+  }
+
+.promo {
+    flex-direction: column-reverse;
+  }}
+
+  @media (min-width: 720px) and (max-width: 1024px) {
+    header {
+        padding: 20px;
+    }
+    .header__logo {
+        height: 20px;
+      }
+
+    .features {
+        padding: 50px 10px 50px 10px;
+    }
+
+    .about {
+        display: flex;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        flex-direction: column;
+    }
+
+    .about h1 {
+        font-size: 36px;
+        line-height: 40px;
+        text-align: center;
+    }
+    .about p {
+        text-align: center;
+    }
+    .about__image {
+        width: 280px;
+    }
+    .about__sun—image {
+        width: 75px;
+        height: 75px;
+
+    }
+    .form h1 {
+        font-size: 36px;
+    }
+    .form {
+        padding: 10px;
+    }
+    .footer__container {
+        flex-direction: column;
+        
+        align-items: center;
+    }
+    footer h3 {
+        text-align: center;
+    }
+    .footer__links {
+        text-align: center;
+    }
+    footer {
+        margin: 20px 10px;
+    } 
+    .footer__group {
+        margin-right: 0px;
+    }}
+    
