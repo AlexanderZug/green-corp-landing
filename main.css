@@ -307,6 +307,7 @@ header{
     header {
         padding: 20px;
     }
+    
     .header__logo {
         height: 20px;
       }
@@ -327,38 +328,44 @@ header{
         line-height: 40px;
         text-align: center;
     }
+
     .about p {
         text-align: center;
     }
+
     .about__image {
         width: 280px;
     }
     .about__sun—image {
         width: 75px;
         height: 75px;
-
     }
+
     .form h1 {
         font-size: 36px;
     }
+
     .form {
         padding: 10px;
     }
+
     .footer__container {
-        flex-direction: column;
-        
+        flex-direction: column;  
         align-items: center;
     }
+
     footer h3 {
         text-align: center;
     }
+
     .footer__links {
         text-align: center;
     }
+
     footer {
         margin: 20px 10px;
     } 
+
     .footer__group {
         margin-right: 0px;
     }}
-    
